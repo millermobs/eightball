@@ -4,11 +4,24 @@
 
 var c = require("skilstak-colors");
 
-var out = process.stdout;
+var answers = [
+  "Yes.",
+  "No.",
+  "Maybe.",
+  "Never.",
+  "IDK.",
+  "There is a chance."
+];
+
+var easterEggs = [
+  ["death|die", "I can not predict death"],
+  ["love", "That is beyond my abilities"]
+];
+
+
 
 function print(message) {
- process.stdout.write(message);
+ process.stdout.write(message + "\n");
 }
 
-
-print(c.clear + c.multi("Welcome to the magic eightball") + "\n");
+print(c.clear + c.multi("Welcome to the magic eightball"));

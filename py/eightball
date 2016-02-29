@@ -2,8 +2,23 @@
 
 import skilstak.colors as c
 
-print(c.clear + c.multi("Welcome to the magic eightball")) 
+from time import sleep
 
+while True:
+    print(c.clear + c.multi("Welcome to the magic eightball")) 
+    sleep(1)
 
+answers = [
+ 'No.',
+ 'Yes.',
+ 'Maybe.',
+ 'Never.',
+ 'IDK.',
+ 'There is a chance.'
+]
 
+easter_eggs = [
+    ["death|die", "I can not predict death"],
+    ["love", "That is beyond my abilities"]
+]
 
