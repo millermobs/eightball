@@ -4,9 +4,7 @@ import skilstak.colors as c
 
 from time import sleep
 
-while True:
-    print(c.clear + c.multi("Welcome to the magic eightball")) 
-    sleep(1)
+print(c.clear + c.multi("Welcome to the magic eightball")) 
 
 answers = [
  'No.',
