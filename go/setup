@@ -1,0 +1,2 @@
+export GOPATH=home/millermobs/repos/eightball/go
+export GO=home/millermobs/repos/eightball/go/bin:$PATH
